@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Scene background */
+.scene {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #a1c4fd);
+}
+
+/* Login form container */
+.grid-pane {
+    -fx-background-color: #F8F8F8;
+    -fx-padding: 20px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-vgap: 15px;
+    -fx-hgap: 10px;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* TextField and PasswordField styling */
+.text-field, .password-field {
+    -fx-font-size: 12px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 5px;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 20px;
+    -fx-background-radius: 5px;
+    -fx-border: none;
+}
+
+.button:hover {
+    -fx-background-color: #005BB5;
+}
+
+.button:pressed {
+    -fx-background-color: #003F7F;
+}
+
+/* Title styling */
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 0;
+}
